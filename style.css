@@ -1,0 +1,66 @@
+/*css for mail alert app
+https://www.w3docs.com/course/css-the-complete-guide-2020-incl-flexbox-grid-sass/watch?lecture=1015 */
+
+body {
+  background-color: #e6f0ff;
+
+}
+.nav-bar {
+  background-color: #1a75ff;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  padding-right: 10px;
+}
+.nav-list {
+  list-style: none;
+}
+.nav-item a {
+  display: flex;
+  text-decoration: none;  
+  align-content: space-between;
+  padding: 15px 15px;
+  color: white;
+}
+.nav-item:hover {
+  background-color: white;
+  
+}
+/* https://freshman.tech/flexbox-navbar/ */
+.nav-item:hover a {
+  color: #1a75ff;
+}
+.content {
+  align-text: center;
+}
+.alert {
+  font-size: 2em;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: yellow;
+  margin: 10px;
+  border-radius: 20px;
+}
+.btn:hover {
+  background-color: white;
+  color: #003380;
+  font-weight: 500;
+}
+.div-btn {
+  background-color: #ffff33;
+  display: flex;
+  justify-content: center;
+}
+#foot {
+  background-color:  #0047b3;
+  color: white;
+  height: 25px;
+  padding: 20px;
+}
+.foot-a {
+  color: white;
+}
+
